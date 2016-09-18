@@ -1,0 +1,32 @@
+
+/^(a?){25}
+(a){25}$/
+
+var i = /^(a?){25}(a){25}$/;
+var j = new RegExp('^(a?){25}(a){25}$');
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rutrum neque eget purus hendrerit ornare. Vestibulum mattis lectus erat, at accumsan neque lacinia ac. Praesent id ante tortor. Fusce mi nisi, blandit quis urna sit amet, luctus dictum purus. Vivamus ac metus mauris. Pellentesque convallis nisl sed arcu convallis, non tristique mi lacinia. Suspendisse tincidunt facilisis libero, sit amet dignissim quam dictum non. Ut eget risus viverra est fringilla cursus id sed felis. Donec turpis sapien, elementum vitae dapibus non, finibus eu lectus. Morbi lacinia sodales nisl in rhoncus. Vivamus vulputate mollis urna vel venenatis.
+
+var ii = /foo|(x+x+)+y/i;
+var jj = new RegExp('foo|(x+x+)+y', 'i');
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rutrum neque eget purus hendrerit ornare. Vestibulum mattis lectus erat, at accumsan neque lacinia ac. Praesent id ante tortor. Fusce mi nisi, blandit quis urna sit amet, luctus dictum purus. Vivamus ac metus mauris. Pellentesque convallis nisl sed arcu convallis, non tristique mi lacinia. Suspendisse tincidunt facilisis libero, sit amet dignissim quam dictum non. Ut eget risus viverra est fringilla cursus id sed felis. Donec turpis sapien, elementum vitae dapibus non, finibus eu lectus. Morbi lacinia sodales nisl in rhoncus. Vivamus vulputate mollis urna vel venenatis.
+
+var iii = /(.*){1,32000}[bc]/i;
+var jjj = new RegExp('(.*){1,32000}[bc]', 'i');
+
+/^(a?){25}
+(a){25}$/
+
+var i = /^(a?){25}(a){25}$/;
+var j = new RegExp('^(a?){25}(a){25}$');
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rutrum neque eget purus hendrerit ornare. Vestibulum mattis lectus erat, at accumsan neque lacinia ac. Praesent id ante tortor. Fusce mi nisi, blandit quis urna sit amet, luctus dictum purus. Vivamus ac metus mauris. Pellentesque convallis nisl sed arcu convallis, non tristique mi lacinia. Suspendisse tincidunt facilisis libero, sit amet dignissim quam dictum non. Ut eget risus viverra est fringilla cursus id sed felis. Donec turpis sapien, elementum vitae dapibus non, finibus eu lectus. Morbi lacinia sodales nisl in rhoncus. Vivamus vulputate mollis urna vel venenatis.
+
+var ii = /foo|(x+x+)+y/i;
+var jj = new RegExp('foo|(x+x+)+y', 'i');
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rutrum neque eget purus hendrerit ornare. Vestibulum mattis lectus erat, at accumsan neque lacinia ac. Praesent id ante tortor. Fusce mi nisi, blandit quis urna sit amet, luctus dictum purus. Vivamus ac metus mauris. Pellentesque convallis nisl sed arcu convallis, non tristique mi lacinia. Suspendisse tincidunt facilisis libero, sit amet dignissim quam dictum non. Ut eget risus viverra est fringilla cursus id sed felis. Donec turpis sapien, elementum vitae dapibus non, finibus eu lectus. Morbi lacinia sodales nisl in rhoncus. Vivamus vulputate mollis urna vel venenatis.
+
+var iii = /(.*){1,32000}[bc]/i;
+var jjj = new RegExp('(.*){1,32000}[bc]', 'i');
