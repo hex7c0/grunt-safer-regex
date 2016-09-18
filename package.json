@@ -23,7 +23,7 @@
     "url": "https://github.com/hex7c0/grunt-safer-regex/issues",
     "email": "hex7c0@gmail.com"
   },
-  "main": "./tasks/endline.js",
+  "main": "./tasks/safer.js",
   "dependencies": {
     "safer-regex": "0.0.2"
   },
