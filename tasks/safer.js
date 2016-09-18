@@ -97,6 +97,10 @@ function safer(grunt) {
             }
           });
       });
+
+      if (success) {
+        grunt.log.ok('0 dangerous regex detected');
+      }
       done(success);
     });
 }
