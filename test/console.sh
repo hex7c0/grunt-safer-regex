@@ -6,7 +6,7 @@ echo "\nRunnning bash test\n"
 grunt1=`grunt --no-color`
 
 object_output1="Running \"safer:object\" (safer) task
- | tmp/bad
+ > tmp/bad
 >> /^(a?){25}(a){25}$/
 >> /foo|(x+x+)+y/
 >> /(.*){1,32000}[bc]/
@@ -33,7 +33,7 @@ fi
 grunt2=`grunt --no-color --force`
 
 object_output2="Running \"safer:object\" (safer) task
- | tmp/bad
+ > tmp/bad
 >> /^(a?){25}(a){25}$/
 >> /foo|(x+x+)+y/
 >> /(.*){1,32000}[bc]/
@@ -50,7 +50,7 @@ object_output2="Running \"safer:object\" (safer) task
 Warning: Task \"safer:object\" failed. Used --force, continuing.
 
 Running \"safer:with_dot\" (safer) task
- | tmp/bad
+ > tmp/bad
 >> /^(a?){25}(a){25}$/
 >> /foo|(x+x+)+y/
 >> /(.*){1,32000}[bc]/
