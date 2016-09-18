@@ -1,0 +1,42 @@
+{
+  "version": "0.0.1",
+  "name": "grunt-safer-regex",
+  "description": "detect possibly exponential-time regular expressions",
+  "keywords": [
+    "gruntplugin",
+    "regex",
+    "regexp",
+    "safe"
+  ],
+  "preferGlobal": false,
+  "homepage": "https://github.com/hex7c0/grunt-safer-regex",
+  "author": {
+    "name": "hex7c0",
+    "email": "hex7c0@gmail.com",
+    "url": "https://hex7c0.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hex7c0/grunt-safer-regex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hex7c0/grunt-safer-regex/issues",
+    "email": "hex7c0@gmail.com"
+  },
+  "main": "./tasks/endline.js",
+  "dependencies": {
+    "safer-regex": "0.0.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.0",
+    "grunt-contrib-jshint": "~1.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "grunt lint && ./test/console.sh"
+  },
+  "license": "GPL-3.0"
+}
