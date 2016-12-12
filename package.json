@@ -25,7 +25,7 @@
   },
   "main": "./tasks/safer.js",
   "dependencies": {
-    "safer-regex": "0.0.2"
+    "safer-regex": "0.1.1"
   },
   "devDependencies": {
     "grunt": "^1.0.0",
