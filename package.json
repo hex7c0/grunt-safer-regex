@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.1.0",
   "name": "grunt-safer-regex",
   "description": "detect possibly exponential-time regular expressions",
   "keywords": [
