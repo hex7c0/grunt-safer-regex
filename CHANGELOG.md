@@ -1,6 +1,7 @@
 v0.1.0 / 2017-12-29
 ==================
 
+  * Update `safer-regex`@0.2.0
   * Remove support for `node`@<4
 
 v0.0.3 / 2016-12-12
