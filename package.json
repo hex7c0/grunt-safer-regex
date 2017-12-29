@@ -35,7 +35,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "prepublish": "npm prune",
+    "prepare": "npm prune",
     "test": "grunt lint && ./test/console.sh"
   },
   "license": "GPL-3.0"
